@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/486b5ea274.js" crossorigin="anonymous"></script>
+    <title>hw3</title>
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+  </head>
+  <body>
+      <div class="card ">
+        <div class="main-part">
+          <h5 class="card-title"><span></span> it`s time for forecasting</h5>
+              <form id="form">
+                  <div class="cntr">
+                    <input type="text" class="form-city" placeholder="Please enter the city:">
+                    <button type="submit" class="btn-search"><i class="fa-solid fa-location-dot search-icon"></i></button>
+                  </div>
+                  </div>
+                  <p class="main-message"> 
+										City: <span id="city"></span><br/><spam id="ch-1">Temperature: <span id="degree"> </span><span id="degree-type">°C</span></span><br/><span id="ch_2"> Humidity:<span id="ch-2"></span>%</span></p>
+                  <div class="period">
+                  <p class="message"> <i class="fa-solid fa-sun icon"></i><br/>9.00</p>
+                  <p class="message"> <i class="fa-solid fa-cloud-sun icon"></i><br/>12.00</p>
+                  <p class="message"> <i class="fa-solid fa-cloud icon"></i> <br/>18.00</p>
+                  <p class="message"> <i class="fa-solid fa-cloud icon"></i><br/>22.00</p>
+                 </div> 
+                 <button id="last_btn">Forecast by my location</button>
+                </form>
+        </div>
+      </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
